@@ -1,0 +1,51 @@
+html,body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #fff;
+  }
+header {
+    background-color: rgba(82, 88, 90, 0.322);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    box-shadow: 0 0 25px 0 black;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#navbar{
+    display: block;
+    transition: top 0.3s;
+    position: fixed;
+}
+.img1 {
+    width: 3%;
+    padding-left: 10px;
+}
+
+.container{
+    float: right;
+    width: 60%;
+    overflow: hidden;
+}
+nav {
+    display: inline;
+    background-color: rgba(52, 139, 211, 0.562);
+    transition: top 0.3s;
+}
+.container > a:link, .container > a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 30px;
+}
+.container > a:hover{
+    border: 3px solid #d4165f;
+    padding-bottom: 20px;
+}
+.l1:hover{
+    border: none;
+}
