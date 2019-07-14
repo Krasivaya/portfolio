@@ -1,0 +1,48 @@
+html,body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+  }
+.home {
+    background-image: url(../images/a1.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+    height: 100%;
+}
+div.home > p {
+    text-align: left;
+    padding-left: 400px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.sp2{
+    padding-left: 30px;
+    font-size: 20px;
+    color: #949092;
+}
+.sp1:hover {
+    text-shadow: 1px 1px 5px rgb(212, 22, 95);
+    font-size: 55px;
+}
+.home > a {
+    border: 5px solid rgb(212, 22, 95);
+    font-size: 40px;
+    background: rgb(212, 22, 95);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.b1:hover {
+    border: 5px solid #fff;
+    font-size: 40px;
+    background: #fff;
+    color: rgb(212, 22, 95);
+    border-radius: 20px;
+    padding: 8px;
+}
+.b1:focus, .img1:focus{
+    outline: 0;
+}
