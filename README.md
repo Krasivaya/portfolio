@@ -1,9 +1,9 @@
 # Portfolio
 ## By **Carine I. SEMWAGA**
 ## Description
-## I'm a web designer and developer based in kigali, Rwanda.
+ I'm a web designer and developer based in kigali, Rwanda.
 ## Setup Instructions
-### You will need to clone the project
+ You will need to clone the project
 ```
 git clone https://github.com/Krasivaya/portfolio.git
 ```
@@ -13,4 +13,4 @@ git clone https://github.com/Krasivaya/portfolio.git
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-### Copyright (c) {2019} **{Moringa School}**
+ Copyright (c) 2019 **Moringa School**
