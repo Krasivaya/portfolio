@@ -9,12 +9,12 @@ html,body {
     background-size: cover;
     height: 700px;
 }
+
 .aboutheader{
   padding-top: 20px;
   text-align: center;
   padding-bottom: 30px; 
 }
-
 .aboutimg1{
   float: left;
   width: 40%;
