@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/Krasivaya/portfolio.git
 ```
-## Live Site
+## Portfolio LiveSite
 [Portfolio](https://krasivaya.github.io/portfolio/)
 
 ## License
