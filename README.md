@@ -8,6 +8,12 @@
 git clone https://github.com/Krasivaya/portfolio.git
 ```
 ## Portfolio LiveSite
+
+                                           HomePage
+
+![s1](https://user-images.githubusercontent.com/51264308/61205011-2fbfbc00-a6ef-11e9-8457-ff94b3b422a4.png)
+
+
 [Portfolio](https://krasivaya.github.io/portfolio/)
 
 ## License
