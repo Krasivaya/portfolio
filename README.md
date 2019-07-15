@@ -25,7 +25,12 @@ git clone https://github.com/Krasivaya/portfolio.git
 
 ![s4](https://user-images.githubusercontent.com/51264308/61205343-166b3f80-a6f0-11e9-8b6e-6f128ec288b0.png)
 
+                                           Contact - Page
 
+![s5](https://user-images.githubusercontent.com/51264308/61205422-4d415580-a6f0-11e9-9ec0-9b95a706c063.png)
+
+                                           Portfolio - LiveSite
+                                           
 [Portfolio](https://krasivaya.github.io/portfolio/)
 
 ## License
