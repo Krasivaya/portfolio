@@ -4,245 +4,292 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" initial-scale="1.0">
         <title>Carine I. SEMWAGA</title>
-        <link rel="icon" type="image/png" href="images/a1.png" >
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/home.css">
-        <link rel="stylesheet" type="text/css" href="css/about.css">
-        <link rel="stylesheet" type="text/css" href="css/skills.css">
-        <link rel="stylesheet" type="text/css" href="css/projects.css">
-        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="icon" type="image/png" href="images/a1.png">
+        <!-- Bootstrap CDN  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- jquery CDN  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Custom styles -->
+        <link href="./css/style.css" rel="stylesheet">
+        <link href="./css/navbar.css" rel="stylesheet">
+        <link href="./css/home.css" rel="stylesheet">
+        <link href="./css/about.css" rel="stylesheet">
+        <link href="./css/skills.css" rel="stylesheet">
+        <link href="./css/projects.css" rel="stylesheet">
+        <link href="./css/contact.css" rel="stylesheet">
+
+
     </head>
     <body>
-        <header id="navbar">
-                <a class="l1" href="#home"> <img class="img1" src="images/a1.png"></a>
-                <nav>
-                    <div class="container">
-                        <a href="#home">HOME</a>
-                        <a href="#about">ABOUT</a>
-                        <a href="#skills">SKILLS</a>
-                        <a href="#projects">PROJECTS</a>
-                        <a href="#contact">CONTACT</a>
-                    </div>
-                </nav>
-        </header>
-        
+        <!-- Navigation -->
+        <div class="navbar navbar-inverse fixed-top" id="navbar">
+            <nav class="container row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#home"><img class="logo" src="./images/a1.png"></a>
+                </div>
+                <!-- <div class="col-md-2"></div> -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a class="nav-link active" href="#home"><span class="link">HOME</span></a></li>
+                        <li><a class="nav-link" href="#about"><span class="link">ABOUT</span></a></li>
+                        <li><a class="nav-link" href="#skills"><span class="link">SKILLS</span></a></li>
+                        <li><a class="nav-link" href="#projects"><span class="link">PROJECTS</span></a></li>
+                        <li><a class="nav-link" href="#contact"><span class="link">CONTACT</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Home view -->
         <div class="home" id="home">
-            <p>Hi, </br> I'm 
-                <span class="sp1">Carine I. SEMWAGA</span> </br> 
-                <!-- <ol>
-                    <li>Web Developer </li>
-                    <li>Web Designer</li>
-                    <li>Graphic Designer</li>
-                </ol> -->
-                <span class="sp2">Web Developer / Web Designer / Graphic Designer</span>
+            <p class="text">Hi, </br> I'm 
+                <span class="sp1">Carine I. SEMWAGA</span>
             </p>
-            <!-- <input type="button" value="About Me" class="b1"> -->
+            <p class="small"><small>
+                <span class="sp2">Full-Stack Developer</span> / 
+                <span class="sp2">Web Designer</span> / 
+                <span class="sp2">Graphic Designer</span>
+            </small></p>
             <a href="#about" class="b1">About Me</a>
         </div>
-
-        <div class="about" id="about">
+        <!-- About view  -->
+        <div class="about" id="about"> 
             <div class="aboutheader">
-                <h1>About Me</h1>
+                <h1>ABOUT ME</h1>
             </div>
-            <div class="aboutimg1">
-                <img src="images/a6.png">
+            <div class="row about_one">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 aboutimg1">
+                    <img src="images/x1.jpg">
+                </div>
+                <div class="col-md-6 etx aboutcontent">
+                    <h1>Who I Am</h1>
+                    <p>My name's Carine. I'm web designer and developer based in Kigali, Rwanda.</p>
+                    <p>During the day I'm a student in web development at Moringa school. 
+                        During the evenings I spend my time working on freelance projects 
+                        and building my own products.</p>
+                    <p>My most recent project is called <span>Secret Message</span>. 
+                        it's a simple yet powerful project that creates secret messages.</p>
+                </div>
             </div>
-            <div class="aboutcontent">
-                <h1>Who I Am</h1>
-                <p>My name's Carine. I'm web designer and developer based in Kigali, Rwanda.</p>
-                <p>During the day I'm a student in web development at Moringa school. 
-                    During the evenings I spend my time working on freelance projects 
-                    and building my own products.</p>
-                <p>My most recent project is called <span>Secret Message</span>. 
-                    it's a simple yet powerful project that creates secret messages.</p>
-            </div>
-            <div class="aboutmore">
-                <h1>Why Work With Me</h1>
-                <p>There's nothing I enjoy more than designing and developing 
-                    good websites for nice people. It really is that simple.
-                </p>
-                <p>I've spent some years trying to perfect what I do and while 
-                    I'll never be perfect, I do my best to come close.
-                </p>
-                <p>If you've got a project you'd like to work on with me just 
-                    <a href="#contact"><em>get in touch</em></a> and we can get to work!
-                </p>
-            </div>
-            <div class="aboutimg2">
-                <img src="images/a4.jpeg">
+            <div class="row about_two">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 etx aboutmore">
+                    <h1>Why Work With Me</h1>
+                    <p>There's nothing I enjoy more than designing and developing 
+                        good websites for nice people. It really is that simple.
+                    </p>
+                    <p>I've spent some time trying to perfect what I do and while 
+                        I'll never be perfect, I do my best to come close.
+                    </p>
+                    <p>If you've got a project you'd like to work on with me just 
+                        <span class="intouch"><a href="#contact"><em>get in touch</em></a></span> and we can get to work!
+                    </p>
+                </div>
+                <div class="col-md-4 aboutimg2">
+                    <img src="images/a4.jpeg">
+                </div>
             </div>
         </div>
-
+        <!-- Skills view  -->
         <div class="skills" id="skills">
             <div class="skillsheader">
-                <!-- <ul>
-                    <li>Web Developer </li>
-                    <li>Web Designer</li>
-                    <li>Graphic Designer</li>
-                </ul> -->
                 <h1>SKILLS</h1>
-                <p>Web Developer / Web Designer / Graphic Designer</p>
+                <p class="skills_small">
+                    <span>Full-Stack Developer</span> / 
+                    <span>Web Designer</span> / 
+                    <span>Graphic Designer</span>
+                </p>
             </div>
-            <div class="frontend">
-                <div class="img1"><img src="images/a7.png"></div>
-                <div class="content">
-                    <div class="skill1">
-                        <img src="images/a10.png">
-                        <p>Javascript</p>
-                    </div>
-                    <div class="skill2">
-                        <img src="images/a10.png">
-                        <p>Node.JS</p>
-                    </div>
-                    <div class="skill3">
-                        <img src="images/a10.png">
-                        <p>React / Angular</p>
-                    </div>
-                    <div class="skill4">
-                        <img src="images/a10.png">
-                        <p>HTML / CSS</p>
+            <div class="row skills_one">
+                <div class="col-md-4">
+                    <div class="frontend">
+                        <div class="img1"><img src="images/a7.png"></div>
+                        <div class="content">
+                            <div class="skill1">
+                                <img src="images/a10.png">
+                                <p>Javascript</p>
+                            </div>
+                            <div class="skill2">
+                                <img src="images/a10.png">
+                                <p>Angular</p>
+                            </div>
+                            <div class="skill3">
+                                <img src="images/a10.png">
+                                <p>Bootstrap / JQuery</p>
+                            </div>
+                            <div class="skill4">
+                                <img src="images/a10.png">
+                                <p>HTML / CSS</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="backend">
-                <div class="img1"><img src="images/a8.png"></div>
-                <div class="content">
-                    <div class="skill1">
-                        <img src="images/a10.png">
-                        <p>Python</p>
-                    </div>
-                    <div class="skill2">
-                        <img src="images/a10.png">
-                        <p>Django</p>
-                    </div>
-                    <div class="skill3">
-                        <img src="images/a10.png">
-                        <p>Ruby / Rails</p>
-                    </div>
-                    <div class="skill4">
-                        <img src="images/a10.png">
-                        <p>PHP / Laravel</p>
+                <div class="col-md-4">
+                    <div class="frontend">
+                        <div class="img2"><img src="images/a8.png"></div>
+                        <div class="content">
+                            <div class="skill1">
+                                <img src="images/a10.png">
+                                <p>Python</p>
+                            </div>
+                            <div class="skill2">
+                                <img src="images/a10.png">
+                                <p>Flask</p>
+                            </div>
+                            <div class="skill3">
+                                <img src="images/a10.png">
+                                <p>Django</p>
+                            </div>
+                            <div class="skill4">
+                                <img src="images/a10.png">
+                                <p>Git / Github</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="others">
-                <div class="img1"><img src="images/a9.png"></div>
-                <div class="content">
-                    <div class="skill1">
-                        <img src="images/a10.png">
-                        <p>Illustrator</p>
-                    </div>
-                    <div class="skill2">
-                        <img src="images/a10.png">
-                        <p>Photoshop</p>
-                    </div>
-                    <div class="skill3">
-                        <img src="images/a10.png">
-                        <p>Sketch / Balsamiq</p>
-                    </div>
-                    <div class="skill4">
-                        <img src="images/a10.png">
-                        <p>Wordpress / Shopify</p>
+                <div class="col-md-4">
+                    <div class="frontend">
+                        <div class="img3"><img src="images/a9.png"></div>
+                        <div class="content">
+                            <div class="skill1">
+                                <img src="images/a10.png">
+                                <p>Illustrator</p>
+                            </div>
+                            <div class="skill2">
+                                <img src="images/a10.png">
+                                <p>Photoshop</p>
+                            </div>
+                            <div class="skill3">
+                                <img src="images/a10.png">
+                                <p>Sketch</p>
+                            </div>
+                            <div class="skill4">
+                                <img src="images/a10.png">
+                                <p>Wordpress / Shopify</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Projects view  -->
         <div class="projects" id="projects">
-            <div class="projheader">
-                <h1>PROJECT</h1>
+            <div class="projects_header">
+                <h1>PROJECTS</h1>
             </div>
-            <div class="proj1">
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                          <img src="images/p1.png" style="width:580px;height:230px;">
-                          <h1>Secret Message</h1>
+            <div class="row projects_one">
+                <div class="col-md-5">
+                    <div class="proj1">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front project_content">
+                                    <img src="images/p1.png">
+                                    <h1>Github Search</h1>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="par" style="padding: 50px">Github Search is an application that connects users to github accounts to 
+                                        view profile summary and ...<br/>
+                                        <a class="var" target="_blank" href="https://krasivaya.github.io/Github-Search/gs" style="color:rgb(250, 189, 217); text-decoration:none;">
+                                        Click here for more...</a></p> 
+                                    <h1 style="color:#d4165f">Javascript - Angular</h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-card-back">
-                          <p class="par" style="padding: 50px">This is a simple yet powerful project that creates secret messages 
-                              by encoding a text you've inputed <br/><a class="var" target="_blank" href="https://krasivaya.github.io/secret-message/" style="color:rgb(250, 189, 217); text-decoration:none;">
-                                Click here for more...</a></p> 
-                              <h1 style="color:#d4165f">HTML / CSS / JS</h1>
-                        </div>
-                      </div>
                     </div>
-            </div>
-            <div class="proj2">
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                          <img src="images/p2.png" style="width:580px;height:230px;">
-                          <h1>Krasivaya</h1>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="proj2">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front project_content">
+                                    <img src="images/p2.png">
+                                    <h1>Tracks</h1>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="par" style="padding: 50px">Tracks is a web application for institutions to manage their students attendance, ... <br/>
+                                        <a class="var" target="_blank" href="https://github.com/Krasivaya/Tracks" style="color:rgb(250, 189, 217); text-decoration:none;">
+                                            Click here for more...</a></p> 
+                                    <h1 style="color:#d4165f">Python - Django</h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-card-back">
-                        <p class="par" style="padding: 50px">This project is designed for entertainment lovers for 
-                            them to watch best movies/cartoons <br/><a class="var" target="_blank" href="https://krasivaya.github.io/krasivaya/" style="color:rgb(250, 189, 217); text-decoration:none;">
-                                Click here for more...</a></p> 
-                            <h1 style="color:#d4165f">HTML / CSS / JS</h1>
-                        </div>
-                      </div>
                     </div>
+                </div>
             </div>
-            <div class="more">
-                <a href="#projects" class="b1"><b>View all projects</b></a>
-                <!-- <a href="#projects" class="b1">NEXT</a> -->
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-3 projects_two">
+                    <a href="#projects" class="b2">View all projects</a>
+                </div>
+                <div class="col-md-3"></div>
             </div>
         </div>
-
+        <!-- Contact view  -->
         <div class="contact" id="contact">
-            <div class="contheader">
+            <div class="contact_header">
                 <h1>Get In Touch</h1>
             </div>
-            <div class="contnbr">
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <p><strong>Phone Number</strong></p>
-                          <img style="width: 100%; height:230px" src="images/a6.png">
+            <div class="row contact_one">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <div class="contnbr">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p><strong>Phone Number</strong></p>
+                                    <img style="width: 100%; height:230px" src="images/x1.jpg">
+                                </div>
+                                <div class="flip-card-back back-content">
+                                    <h1>Phone Number</h1> <hr class="line">
+                                    <h3>Carine I. SEMWAGA</h3> 
+                                    <p><b>+250 788 206 956</b></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-card-back">
-                          <h1>Phone Number</h1> <hr>
-                          <h3>Carine I. SEMWAGA</h3> 
-                          <p><b>+250 788 206 956</b></p>
-                        </div>
-                      </div>
                     </div>
-            </div>
-            <div class="contemail">
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <p><b>E-mail Address</b></p>
-                          <img style="width: 100%; height:230px" src="images/a4.jpeg">
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="contemail">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p><b>E-mail Address</b></p>
+                                    <img style="width: 100%; height:230px" src="images/a4.jpeg">
+                                </div>
+                                <div class="flip-card-back back-content">
+                                    <h1>E-mail Address</h1> <hr class="line"/>
+                                    <h3>Carine I. SEMWAGA</h3> 
+                                    <p><b>semwagacarine@gmail.com</b></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-card-back">
-                          <h1>E-mail Address</h1> <hr/>
-                          <h3>Carine I. SEMWAGA</h3> 
-                          <p><b>semwagacarine@gmail.com</b></p>
-                        </div>
-                      </div>
                     </div>
+                </div>
             </div>
-            <div class="contlink">
-                <a href="https://www.linkedin.com/in/carine-ishimwe-semwaga-29aa11149/" target="_blank" style="margin-right: 250px">Linkedin</a>
-                <a href="https://github.com/Krasivaya" target="_blank" style="margin-right: 250px">Github</a>
-                <a href="https://gitlab.com/Krasivaya?nav_source=navbar" target="_blank" style="margin-right: 50px">Gitlab</a>
+            <div class="row contlink">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 contact_link">
+                    <a href="https://www.linkedin.com/in/carine-i-semwaga-29aa11149/" target="_blank" style="margin-right: 250px">Linkedin</a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2 contact_link">
+                    <a href="https://github.com/Krasivaya" target="_blank" style="margin-right: 250px">Github</a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2 contact_link">
+                    <a href="https://gitlab.com/Krasivaya?nav_source=navbar" target="_blank" style="margin-right: 50px">Gitlab</a>
+                </div>
             </div>
         </div>
-
-        <script src="js/script.js"></script>
-        <script>
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("navbar").style.top = "0";
-                } else {
-                    document.getElementById("navbar").style.top = "-70px";
-                }
-                prevScrollpos = currentScrollPos;
-                }
-        </script>
+        <!-- Custom script  -->
+        <script src="./js/script.js"></script>
     </body>
 </html>
