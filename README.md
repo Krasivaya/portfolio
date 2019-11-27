@@ -11,11 +11,11 @@ git clone https://github.com/Krasivaya/portfolio.git
 
                                            HomePage
 
-![s1](https://user-images.githubusercontent.com/51264308/61205011-2fbfbc00-a6ef-11e9-8457-ff94b3b422a4.png)
+![Screenshot from 2019-11-28 00-53-28](https://user-images.githubusercontent.com/51264308/69764591-92cf5e00-1179-11ea-9ea3-2aabf73fc0fb.png)
 
                                            About Me - Page
 
-![s2](https://user-images.githubusercontent.com/51264308/61205160-a066d880-a6ef-11e9-9526-c27c71793f74.png)
+![Screenshot from 2019-11-28 00-54-44](https://user-images.githubusercontent.com/51264308/69764625-b0042c80-1179-11ea-9b97-3c9184c79da4.png)
 
                                            Skills - Page
 
@@ -23,11 +23,11 @@ git clone https://github.com/Krasivaya/portfolio.git
 
                                            Projects - Page
 
-![s4](https://user-images.githubusercontent.com/51264308/61205343-166b3f80-a6f0-11e9-8b6e-6f128ec288b0.png)
+![Screenshot from 2019-11-28 00-57-35](https://user-images.githubusercontent.com/51264308/69764786-3e78ae00-117a-11ea-8f6d-f5519da35747.png)
 
                                            Contact - Page
 
-![s5](https://user-images.githubusercontent.com/51264308/61205422-4d415580-a6f0-11e9-9ec0-9b95a706c063.png)
+![Screenshot from 2019-11-28 00-56-38](https://user-images.githubusercontent.com/51264308/69764800-48021600-117a-11ea-9ef4-f9ea279287aa.png)
 
                                            Portfolio - LiveSite
                                            
