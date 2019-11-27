@@ -1,35 +1,33 @@
-html,body {
-    scroll-behavior: smooth;
-    height: 100%;
-    margin: 0;
-  }
 .contact{
     height: 100%;
     background-image: url(../images/a2.jpg);
     background-size: cover;
-    height: 700px;
 }
-.contheader {
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 50px;
+.contact_header{
+    padding-top: 3%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+.contact_header > h1{
+    font-size: 40px;
+    font-weight: 800;
 }
 .contnbr{
-  float: left;
+  /* float: left; */
   width: 35%;
-  padding-left: 150px; 
+  /* padding-left: 150px;  */
   /* border: 2px solid black; */
 }
 .contemail {
-  float: left;
+  /* float: left; */
   width: 35%;
-  padding-left: 150px; 
+  /* padding-left: 150px;  */
   /* border: 2px solid black; */
 }
 .contemail > .flip-card, .contnbr > .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 280px;
+  width: 250%;
+  height: 270px;
   perspective: 1000px;
 }
 
@@ -40,40 +38,62 @@ html,body {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 8px 5px rgba(0,0,0,0.2);
 }
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
+
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
+
 .flip-card-front {
   background-color: #d4165f6e;
   color: #fff;
+  font-size: 22px;
+  padding-top: 2%;
 }
+
 .flip-card-back {
   background-color: #d4165f;
   color: white;
   transform: rotateY(180deg);
 }
+.back-content > h1{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 2%;
+}
+.back-content > hr{
+    border: 1px solid #fff;
+}
+.back-content > h3{
+    font-size: 18px;
+    margin-top: 18%;
+}
 .contlink {
-  float: left;
-  width: 80%;
-  margin: 80px 160px;
+  /* float: left; */
+  /* width: 80%; */
+  /* margin: 80px 160px; */
   font-size: 20px;
   /* border: 2px solid black; */
 }
-.contlink > a:link, .contlink > a:visited {
+.contlink > .contact_link {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.contlink > .contact_link > a:link, .contlink > .contact_link > a:visited {
   text-decoration: none;
   color: #fff;
   border: 1px solid rgba(151, 148, 148, 0.733);
   border-radius: 20px;
   padding: 10px 30px;
 }
-.contlink > a:hover {
+.contlink > .contact_link > a:hover {
   background: rgba(196, 196, 196, 0.26);
 }

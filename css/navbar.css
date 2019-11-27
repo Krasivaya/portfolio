@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgba(82, 88, 90, 0.322);
+    box-shadow: 0 0 25px 0 black;
+    border: none;
+    border-radius: 0;
+    transition: top 0.5s;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    margin-top:-4%;
+    width: 15%;
+}
+.link{
+    width:53px; 
+    color: #fff; 
+    height:30px;
+    padding-left: 23px; 
+    padding-right: 23px; 
+    margin-top:5px;
+    font-weight: 800;
+    font-size: 17px;
+}
+.link:hover{
+    border-left:3px solid #d4165f;
+    padding-left: 23px; 
+    border-right:3px solid #d4165f;
+    padding-right: 23px; 
+}

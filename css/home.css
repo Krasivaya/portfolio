@@ -1,48 +1,49 @@
-html,body {
-    scroll-behavior: smooth;
-    height: 100%;
-    margin: 0;
-  }
-.home {
+.home{
     background-image: url(../images/a1.jpg);
     background-size: cover;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 20%;
     height: 100%;
 }
-div.home > p {
-    text-align: left;
-    padding-left: 400px;
-    font-size: 50px;
-    cursor: pointer;
+.home > .text{
+    font-size: 43px;
 }
-.sp2{
-    padding-left: 30px;
-    font-size: 20px;
-    color: #949092;
+.home > .small{
+    font-size: 23px;
+    margin-bottom: 5%;
+}
+.sp1{
+    font-weight: 800; 
 }
 .sp1:hover {
     text-shadow: 1px 1px 5px rgb(212, 22, 95);
-    font-size: 55px;
+    font-size: 45px;
+}
+.sp2{
+    padding: 0 10px;
+    color: #949092;
+}
+.sp2:hover {
+    text-shadow: 1px 1px 5px rgb(212, 22, 95);
+    font-size: 20px;
 }
 .home > a {
     border: 5px solid rgb(212, 22, 95);
-    font-size: 40px;
+    font-size: 30px;
     background: rgb(212, 22, 95);
     color: #fff;
     border-radius: 20px;
     padding: 10px;
+    font-weight: 600; 
     cursor: pointer;
     text-decoration: none;
 }
 .b1:hover {
     border: 5px solid #fff;
-    font-size: 40px;
+    font-size: 32px;
     background: #fff;
     color: rgb(212, 22, 95);
     border-radius: 20px;
+    font-weight: 600; 
     padding: 8px;
-}
-.b1:focus, .img1:focus{
-    outline: 0;
 }
