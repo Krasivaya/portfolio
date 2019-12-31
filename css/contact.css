@@ -4,7 +4,7 @@
     background-size: cover;
 }
 .contact_header{
-    padding-top: 3%;
+    /* padding-top: 3%; */
     padding-bottom: 7%;
     text-align: center;
 }
@@ -56,6 +56,10 @@
   background-color: #d4165f6e;
   color: #fff;
   font-size: 22px;
+  /* padding-top: 2%; */
+}
+.flip-card-front > p{
+  font-weight: 600;
   padding-top: 2%;
 }
 
@@ -74,7 +78,8 @@
 }
 .back-content > h3{
     font-size: 18px;
-    margin-top: 18%;
+  color: white;
+  margin-top: 18%;
 }
 .contlink {
   /* float: left; */
